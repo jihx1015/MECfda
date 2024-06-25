@@ -1,0 +1,44 @@
+Package: MECfda
+Type: Package
+Title: Regression model and bias correction methods due to measurement errors in scalar-on-function regression models
+Version: 0.1.0
+Author: c(
+    person(given = "Heyang", family = "Ji",email = "jihx1015@outlook.com", role = c("aut","cre","ctb","dtc")),
+    person(given = "Ufuk", family = "Beyaztas",   role = c("ctb","rev")),
+    person(given = "Nicolas", family = "Escobar", role = c("com")),
+    person(given = "Yuanyuan", family = "Luan",   role = c("ctb")),
+    person(given = "Xiwei", family = "Chen",      role = c("ctb")),
+    person(given = "Tingyu", family = "Zhu",      role = c("ctb")),
+    person(given = "Andi", family = "Mai",        role = c("rev")),
+    person(given = "Roger", family = "Zoh",       role = c("ths")),
+    person(given = "Lan", family = "Xue",         role = c("ths")),
+    person(given = "Carmen", family = "Tekwe",    role = c("ths"))
+  )
+Maintainer: Heyang Ji <jihx1015@outlook.com>
+Description: The package provide functions to solve scalar-on-function linear models,
+    including generalized linear mixed effect model and quantile linear regression model,
+    and bias correction estimation methods due to measurement error. 
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Depends: 
+    R (>= 2.10),
+Imports: 
+    stats,
+    stringr,
+    lme4,
+    quantreg,
+    splines,
+    dplyr,
+    MASS,
+    Matrix,
+    gss,
+    corpcor,
+    fda,
+    magrittr,
+    methods,
+    nlme,
+    glme,
+    mgcv
+    
