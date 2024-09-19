@@ -28,6 +28,7 @@ vignette: >
   %\VignetteIndexEntry{Introduction to MECfda Package}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
+csl: biomed-central.csl
 ---
 
 <!-- output: pdf_document -->
